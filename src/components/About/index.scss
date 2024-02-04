@@ -1,12 +1,7 @@
 .stage-cube-cont {
   width: 50%;
-  height: 100%;
-  top: 0;
-  padding-top: 18%;
-  margin-left: 0;
-  position: absolute;
-  right: 0;
-  overflow: hidden;
+  height: 225px;
+  padding-top: 50px;
 }
 
 .cubespinner {
@@ -77,5 +72,120 @@
   }
   83% {
     transform: rotateX(90deg);
+  }
+}
+
+
+.container {
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+}
+
+
+.container.about-page {
+  margin: 0 auto 10% auto;
+  width: 90%;
+  h1 {
+    font-family: 'Coolvetica';
+    color: #c8102f;
+    font-weight: 400;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 0;
+
+    &:before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #c8102f;
+      font-size: 18px;
+      margin-top: -10px;
+      left: -10px;
+      opacity: 0.6;
+      line-height: 18px;
+    }
+
+    &:after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #c8102f;
+      font-size: 18px;
+      line-height: 18px;
+      left: -30px;
+      bottom: -20px;
+      opacity: 0.6;
+    }
+  }
+  .flex-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+    p {
+      font-size: 15px;
+      color: black;
+      font-family: sans-serif;
+      font-weight: 300;
+      text-align: left;
+      animation: pulse 1s;
+      &:nth-of-type(1) {
+        animation-delay: 1.1s;
+      }
+      &:nth-of-type(2) {
+        animation-delay: 1.2s;
+      }
+      &:nth-of-type(3) {
+        animation-delay: 1.3s;
+      }
+      &:nth-of-type(4) {
+        animation-delay: 1.3s;
+      }
+    }
+
+  .text-zone {
+      width: 50%;
+      min-width: 300px;
+  }
+
+  .text-animate-hover {
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .skills-list {
+    display: flex;
+    width: 80%;
+    ul {
+      padding-left: 0;
+      width: 100%;
+      li {
+        display: flex;
+        gap: 5px;
+        list-style-type:none;
+        animation: pulse 1s;
+        &:nth-of-type(1) {
+          animation-delay: 1.5s;
+        }
+        &:nth-of-type(2) {
+          animation-delay: 1.6s;
+        }
+        &:nth-of-type(3) {
+          animation-delay: 1.7s;
+        }
+        &:nth-of-type(4) {
+          animation-delay: 1.8s;
+        }
+        &:nth-of-type(5) {
+          animation-delay: 1.9s;
+        }
+        div {
+          font-size: 15px;
+          font-family: sans-serif;
+        }
+      }
+    }
   }
 }

@@ -1,0 +1,142 @@
+  .container {
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+  }
+  
+  
+  .container.experience-page {
+    margin: 0 auto 15% auto;
+    width: 90%;
+
+    
+      h1 {
+        font-family: 'Coolvetica';
+        color: #c8102f;
+        font-weight: 400;
+        text-align: center;
+        font-size: 5rem;
+        margin: 0;
+  
+        &:before {
+          content: '<h1>';
+          font-family: 'La Belle Aurore', cursive;
+          color: #c8102f;
+          font-size: 18px;
+          margin-top: -10px;
+          left: -10px;
+          opacity: 0.6;
+          line-height: 18px;
+        }
+  
+        &:after {
+          content: '<h1/>';
+          font-family: 'La Belle Aurore', cursive;
+          color: #c8102f;
+          font-size: 18px;
+          line-height: 18px;
+          left: -30px;
+          bottom: -20px;
+          opacity: 0.6;
+        }
+      }
+
+      .company-ul {
+        padding-left: 0;
+        li {
+          a {
+            text-decoration: none;
+          }
+          list-style-type: none;
+          font-size: 15px;
+          .company-container {
+            display: flex;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            .timeline-div {
+              flex: 1;
+              color: black;
+              animation: pulse 1s;
+              animation-delay: 1.1s;
+              div {
+                font-size: 15px;
+                font-family: sans-serif;
+                font-weight: 300;   
+                text-align: center;           
+              }
+            }
+            .experience-div {
+              flex: 5;
+              animation: pulse 1s;
+              animation-delay: 1.1s;
+              .role-title {
+                color: black;
+                font-size: 15px;
+                font-weight:lighter;
+                font-family: 'Coolvetica';
+                animation: pulse 1s;
+                animation-delay: 1.1s;
+              }
+              .location-div {
+                font-style: italic;
+                color: black;
+                animation: pulse 1s;
+                animation-delay: 1.2s;
+              }
+              .exp-pt-ul {
+                padding-left: 0;
+
+                li {
+                  display: flex;
+                  gap: 5px;
+                  list-style-type:none;
+                  animation: pulse 1s;
+                  font-size: 15px;
+                  color: black;
+                  font-family: sans-serif;
+                  font-weight: 300;
+                  &:nth-of-type(1) {
+                    animation-delay: 1.3s;
+                  }
+                  &:nth-of-type(2) {
+                    animation-delay: 1.4s;
+                  }
+                  &:nth-of-type(3) {
+                    animation-delay: 1.5s;
+                  }
+                  &:nth-of-type(4) {
+                    animation-delay: 1.6s;
+                  }
+                  &:nth-of-type(5) {
+                    animation-delay: 1.7s;
+                  }
+                }
+              }
+
+            }
+            &:hover {
+              background-color: rgba(200, 16, 47, 0.1);
+
+              .experience-div {
+                .role-title {
+                  color: #c8102f;
+                }
+              }
+            }
+          }
+        }
+      }
+    .text-zone {
+        width: 100%;
+        min-width: 300px;
+        margin: 0 auto;
+    }
+  
+    .text-animate-hover {
+      &:hover {
+        color: #fff;
+      }
+    }
+  }

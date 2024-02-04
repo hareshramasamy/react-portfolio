@@ -1,0 +1,81 @@
+
+.project {
+    width: 450px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+
+    .project--image {
+        width: 100%;
+        border-radius: 9px;
+        margin-bottom: 9px;
+    }
+
+    .project-text-container {
+        height: 100%;;
+
+        .project-title-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .project--title {
+                overflow: hidden;
+                margin: 0;
+                font-size: 20px;
+            }
+            .project--icons {
+                display: flex;
+                gap: 8px;
+
+                svg:hover {
+                    color: #c8102f;
+
+                }
+            }
+        }
+        .project--description {
+            font-size: 15px;
+            color: black;
+            font-family: sans-serif;
+            font-weight: 300;
+        }
+    }
+
+    .tools--list {
+        display: flex;
+        padding-left: 0;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+        li {
+            list-style-type: none;
+            padding: 4px;
+            border-radius: 5px;
+            background-color: #c8102f;
+            color: white;
+            font-weight: bold;
+        }
+}
+
+
+
+    &:hover {
+        background-color: rgba(200, 16, 47, 0.1);
+        opacity: 0.8;
+        .project-text-container {
+            .project--title {
+                color: #c8102f;
+            }
+        }
+      }
+}
