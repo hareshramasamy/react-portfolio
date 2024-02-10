@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import {
   faJava,
   faCss3,
@@ -6,12 +6,11 @@ import {
   faHtml5,
   faJsSquare,
   faReact, 
-  faNode
 } from '@fortawesome/free-brands-svg-icons'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
-import { faArrowCircleRight, faArrowRight, faHandPointRight } from '@fortawesome/free-solid-svg-icons'
+import {faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -29,15 +28,16 @@ const About = () => {
         <div className="text-zone">
             <p>
               My name is Haresh Ramasamy, and I am a passionate Software Engineer, driven towards building
-              scalable Software to tackle complex real-world problems. My interest in Software Engineering
-              began in the final year of my Undergraduate studies, when I made a simple 
-              portfolio project for my brother using vanilla HTML, CSS, and JavaScript. Later, I built a 
-              Canteen Management System application using Java, and this application made me realise the potential of 
-              Object Oriented Programming.
+              scalable Software to tackle complex real-world problems. Coming from an Electrical Engineering background, 
+              I developed a strong predilection towards the Software side of the Electronics, which enabled me to gracefully transition
+              into the Software Engineering domain. My first ever Software project was a simple Java project using JDBC called 'Restaurant Management
+              System', through which i realized the power of Object-Oriented Design!
             </p>
             <p>
               I have two years of experience working at Accenture as Advanced App. Engineering Analyst,
-              where I honed my skills as a Java Full Stack Developer.
+              where I honed my skills as a Java Full Stack Developer. Two of the projects I worked on during my time at Accenture are: Retirement Payment processing
+              portal for a reputed US-based financial client, and cloud migration readiness platform development. Through these projects, I gained expertise in development of RESTful APIs using 
+              Spring Boot, and React framework for developing responsive UI.
               A couple of things I learnt from this work experience are: i). I simply love coding, and ii). I enjoy 
               coming up with solutions in a fast-paced environment.
             </p>
