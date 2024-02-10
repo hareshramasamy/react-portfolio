@@ -3,11 +3,12 @@
     width: 90%;
 
     h1 {
-        font-family: 'Coolvetica';
-        color: #c8102f;
-        font-weight: 400;
-        text-align: center;
-        font-size: 5rem;
+      font-family: 'Helvetica Neue';
+      letter-spacing: -1px;
+      color: #c8102f;
+      font-weight: 600;
+      text-align: center;
+      font-size: 5rem;
         margin: 0;
   
         &:before {
@@ -35,10 +36,9 @@
 
     .projects-list {
       display: flex;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       gap: 30px;
-      overflow-x: scroll;
-      scroll-behavior: smooth;
+      justify-content: center;
       padding-bottom: 20px;
   }
 }
