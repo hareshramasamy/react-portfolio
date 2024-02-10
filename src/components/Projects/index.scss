@@ -38,6 +38,7 @@
       flex-wrap: nowrap;
       gap: 30px;
       overflow-x: scroll;
+      scroll-behavior: smooth;
       padding-bottom: 20px;
   }
 }
