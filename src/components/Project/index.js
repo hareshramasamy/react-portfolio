@@ -1,4 +1,5 @@
 import Health360 from '../../assets/images/health360.png'
+import Eduverse from '../../assets/images/eduverse.png'
 import Ams from '../../assets/images/airlinemanagementsystem.png'
 import Gtw from '../../assets/images/globetravelwebsite.png'
 import Bb from '../../assets/images/blogbytes.png'
@@ -10,7 +11,9 @@ import {faExternalLink} from '@fortawesome/free-solid-svg-icons'
 
 export default function Project(props) {
     let imgSrc
-    if (props.coverImg === "health360.png") {
+    if (props.coverImg === "eduverse.png") {
+        imgSrc = Eduverse
+    } else if (props.coverImg === "health360.png") {
         imgSrc = Health360
     } else if (props.coverImg === "airlinemanagementsystem.png") {
         imgSrc = Ams

@@ -1,6 +1,18 @@
 const projects = [
     {
         id: 1,
+        title: "Eduverse LMS",
+        description: "Eduverse is a Spring Boot application designed as an online Learning Management System (LMS). Eduverse offers a comprehensive set of features tailored to facilitate efficient management and delivery of online courses including creation of courses, announcements, and assignments, file uploads, student enrollment, and grade submissions by instructors, and assignment submission by students.",
+        coverImg: "eduverse.png",
+        github: "https://github.com/hareshramasamy/edu-verse",
+        deployed: true,
+        link: "http://eduverse.us-east-1.elasticbeanstalk.com/",
+        date: "April 2024",
+        alt: "eduverse image",
+        tools: ["Java", "Spring Boot", "Spring MVC", "Spring Security", "Thymeleaf","MySQL","AWS Elastic Beanstalk","AWS RDS","HTML","CSS","JavaScript","JQuery","Apache POI API", "AJAX" ]
+    },
+    {
+        id: 2,
         title: "Health 360",
         description: "Health360 is a user-friendly fitness web application designed to guide one's journey towards optimal health. This all-in-one platform combines intuitive design with powerful features to provide users with a seamless and personalized fitness experience. Health360 incorporates an array of features, including real-time tracking of your daily calorie intake, effortless meal and exercise logging, personalized goal visualization, and a blog platform for sharing recipes and wellness tips.",
         coverImg: "health360.png",
@@ -12,7 +24,7 @@ const projects = [
         tools: ["TypeScript", "React.js","Node.js", "Express.js", "MongoDB", "SCSS", "Redux.js"]
     },
     {
-        id: 2,
+        id: 3,
         title: "Airline Management System",
         description: "Airline Management System is a Java Swing application designed to manage domestic and international flight schedules, bookings, and passenger information. The system provides separate interfaces for administrators and passengers to interact with the system, offering functionalities such as viewing flight schedules, booking flights, and managing user accounts.",
         coverImg: "airlinemanagementsystem.png",
@@ -24,7 +36,7 @@ const projects = [
         tools: ["Java", "Swing GUI","CSV Handling", "Stream API", "Factory Pattern", "Multi-threading", "Object-Oriented Design"]
     },
     {
-        id: 3,
+        id: 4,
         title: "Globe Travel Website",
         description: "Welcome to the Globe Travel Website project! This is a sample project showcasing how to integrate HTML and SCSS for a travel website. This repository includes HTML, SCSS and various assets like icons,buttons, and images used for development of a static version of an imaginary Travel Website called \"Globe\". This page is for understanding the HTML tags and their corresponding SCSS styling elements and does not include any javascript code.",
         coverImg: "globetravelwebsite.png",
@@ -36,7 +48,7 @@ const projects = [
         tools: ["HTML", "SCSS"]
     },
     {
-        id: 4,
+        id: 5,
         title: "Blog Bytes",
         description: "Welcome to 'BlogBytes'! Stretch your tech muscles by reading the byte-sized blogs from this website!!! This blog website is a sample project showcasing how to integrate HTML, SCSS and JavaScript for a simple blog website that displays some posts from an external JSON file, and allows the user to create a new blog, or update the author/content of an existing blog. This repository includes HTML, SCSS, and JS files.",
         coverImg: "blogbytes.png",
@@ -48,7 +60,7 @@ const projects = [
         tools: ["JavaScript","HTML", "SCSS"]
     },
     {
-        id: 5,
+        id: 6,
         title: "Canvas Calculator",
         description: "Welcome to 'Expression Calculator'! This calculator is a HTML Canvas based calculator, where each buttons are drawn into the canvas element of the webpage with id = calculatorCanvas. This project showcases the understanding of the Canvas element and how to draw using Javascript, and enable various operations on them.",
         coverImg: "canvascalculator.png",
