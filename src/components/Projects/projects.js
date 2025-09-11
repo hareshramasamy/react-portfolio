@@ -54,8 +54,8 @@ const projects = [
         description: "Health360 is a user-friendly fitness web application designed to guide one's journey towards optimal health. This all-in-one platform combines intuitive design with powerful features to provide users with a seamless and personalized fitness experience. Health360 incorporates an array of features, including real-time tracking of your daily calorie intake, effortless meal and exercise logging, personalized goal visualization, and a blog platform for sharing recipes and wellness tips.",
         coverImg: "health360.png",
         github: "https://github.com/hareshramasamy/Health360",
-        deployed: false,
-        link: "https://main.d2h92gmwzyfhhc.amplifyapp.com/",
+        deployed: true,
+        link: "https://main.dlycu2ymsp6h0.amplifyapp.com/",
         date: "December 2023",
         alt: "health360 image",
         tools: ["TypeScript", "React.js","Node.js", "Express.js", "MongoDB", "SCSS", "Redux.js"]

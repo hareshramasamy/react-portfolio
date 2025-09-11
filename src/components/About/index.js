@@ -99,7 +99,7 @@ const About = () => {
                       <FontAwesomeIcon icon={faArrowRight} color="#c8102f" />
                       </div>
                       <div>
-                        Terrform
+                        Terraform
                       </div>
                   </li>
               </ul>
