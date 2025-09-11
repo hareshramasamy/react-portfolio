@@ -41,6 +41,9 @@ const About = () => {
               A couple of things I learnt from this work experience are: i). I simply love coding, and ii). I enjoy 
               coming up with solutions in a fast-paced environment.
             </p>
+            <p>
+              During my co-op at Nokia, I served as the primary developer for a cloud-based billing portal within their Event Driven Automation (EDA) SaaS platform. I built a React-based UI with Redux state management, integrated JWT and Azure AD authentication with role-based access, and automated complex workflows such as quarterly invoice generation, license management, and RTU activation flows. Collaborating closely with global teammates, I adapted to evolving requirements and delivered a scalable solution that streamlined billing operations for both Nokia and customer users.
+            </p>
             <p>            
               Currently, I am pursuing my Masters in Software Engineering Systems at Northeastern University.
               I am working on both frontend and backend projects, to enhance my skillset as a
@@ -91,6 +94,14 @@ const About = () => {
                         MongoDB
                       </div>
                   </li>
+                  <li>
+                      <div>
+                      <FontAwesomeIcon icon={faArrowRight} color="#c8102f" />
+                      </div>
+                      <div>
+                        Terrform
+                      </div>
+                  </li>
               </ul>
               <ul>
                   <li>
@@ -130,7 +141,15 @@ const About = () => {
                       <FontAwesomeIcon icon={faArrowRight} color="#c8102f" />
                       </div>
                       <div>
-                        AWS EC2
+                        AWS, GCP
+                      </div>
+                  </li>
+                  <li>
+                      <div>
+                      <FontAwesomeIcon icon={faArrowRight} color="#c8102f" />
+                      </div>
+                      <div>
+                        Packer
                       </div>
                   </li>
               </ul>

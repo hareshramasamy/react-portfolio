@@ -4,6 +4,9 @@ import Ams from '../../assets/images/airlinemanagementsystem.png'
 import Gtw from '../../assets/images/globetravelwebsite.png'
 import Bb from '../../assets/images/blogbytes.png'
 import Cc from '../../assets/images/canvascalculator.png'
+import Sdn from '../../assets/images/stablediffusionnaruto.png'
+import Sg from '../../assets/images/sqlgenerator.png'
+import Ls from '../../assets/images/librarystore.png'
 import './index.scss';
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -23,6 +26,12 @@ export default function Project(props) {
         imgSrc = Bb
     } else if (props.coverImg === "canvascalculator.png") {
         imgSrc = Cc
+    } else if (props.coverImg === "stablediffusionnaruto.png") {
+        imgSrc = Sdn
+    } else if (props.coverImg === "sqlgenerator.png") {
+        imgSrc = Sg
+    } else if (props.coverImg === "librarystore.png") {
+        imgSrc = Ls
     }
 
     return (

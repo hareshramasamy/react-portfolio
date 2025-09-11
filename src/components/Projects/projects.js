@@ -1,30 +1,67 @@
 const projects = [
     {
         id: 1,
+        title: "Library Store",
+        description: "A comprehensive bookstore management system demonstrating various design patterns in Java. This project implements a complete bookstore application with inventory management, order processing, billing, and employee management.",
+        coverImg: "librarystore.png",
+        github: "https://github.com/hareshramasamy/Library-Store",
+        deployed: false,
+        link: "https://github.com/hareshramasamy/Library-Store",
+        date: "August 2025",
+        alt: "librarystore image",
+        tools: ["Java", "Design Patterns", "UML Design", "Maven", "JUnit"]
+    },
+    {
+        id: 2,
+        title: "Stable Diffusion Naruto",
+        description: "This project is a full-stack Generative AI web application that enables users to generate Naruto-style anime images from text prompts using a fine-tuned Stable Diffusion model. The application features a user-friendly Streamlit front-end and a PyTorch-based back-end powered by Hugging Face's diffusers library.",
+        coverImg: "stablediffusionnaruto.png",
+        github: "https://github.com/hareshramasamy/stable-diffusion-naruto",
+        deployed: false,
+        link: "https://github.com/hareshramasamy/stable-diffusion-naruto",
+        date: "April 2025",
+        alt: "stable diffusion naruto image",
+        tools: ["Streamlit", "Python", "Pytorch", "Hugging face Diffusers", "VAE", "CLIP","U-Net","Jupiter Notebook", "Transformers & Tokenizers", "Fine-tuning" ]
+
+    },
+    {
+        id: 3,
+        title: "SQL Generator",
+        description: "The goal of this project was to fine-tune two Large Language Models (LLMs) on Gretel's Synthetic text-to-SQL dataset, generate SQL queries along with explanations given a schema and natural language query, compare their performance and build a simple interface to query the models.",
+        coverImg: "sqlgenerator.png",
+        github: "https://github.com/hareshramasamy/sql-generator",
+        deployed: false,
+        link: "https://github.com/hareshramasamy/sql-generator",
+        date: "March 2025",
+        alt: "sqlgenerator image",
+        tools: ["Python", "SQL", "Transformer Models", "Fine-tuning", "Google Colab", "Gradio UI" ]
+    },
+    {
+        id: 4,
         title: "Eduverse LMS",
         description: "Eduverse is a Spring Boot application designed as an online Learning Management System (LMS). Eduverse offers a comprehensive set of features tailored to facilitate efficient management and delivery of online courses including creation of courses, announcements, and assignments, file uploads, student enrollment, and grade submissions by instructors, and assignment submission by students.",
         coverImg: "eduverse.png",
         github: "https://github.com/hareshramasamy/edu-verse",
-        deployed: true,
+        deployed: false,
         link: "http://eduverse.us-east-1.elasticbeanstalk.com/",
         date: "April 2024",
         alt: "eduverse image",
         tools: ["Java", "Spring Boot", "Spring MVC", "Spring Security", "Thymeleaf","MySQL","AWS Elastic Beanstalk","AWS RDS","HTML","CSS","JavaScript","JQuery","Apache POI API", "AJAX" ]
     },
     {
-        id: 2,
+        id: 5,
         title: "Health 360",
         description: "Health360 is a user-friendly fitness web application designed to guide one's journey towards optimal health. This all-in-one platform combines intuitive design with powerful features to provide users with a seamless and personalized fitness experience. Health360 incorporates an array of features, including real-time tracking of your daily calorie intake, effortless meal and exercise logging, personalized goal visualization, and a blog platform for sharing recipes and wellness tips.",
         coverImg: "health360.png",
         github: "https://github.com/hareshramasamy/Health360",
-        deployed: true,
+        deployed: false,
         link: "https://main.d2h92gmwzyfhhc.amplifyapp.com/",
         date: "December 2023",
         alt: "health360 image",
         tools: ["TypeScript", "React.js","Node.js", "Express.js", "MongoDB", "SCSS", "Redux.js"]
     },
     {
-        id: 3,
+        id: 6,
         title: "Airline Management System",
         description: "Airline Management System is a Java Swing application designed to manage domestic and international flight schedules, bookings, and passenger information. The system provides separate interfaces for administrators and passengers to interact with the system, offering functionalities such as viewing flight schedules, booking flights, and managing user accounts.",
         coverImg: "airlinemanagementsystem.png",
@@ -36,7 +73,7 @@ const projects = [
         tools: ["Java", "Swing GUI","CSV Handling", "Stream API", "Factory Pattern", "Multi-threading", "Object-Oriented Design"]
     },
     {
-        id: 4,
+        id: 7,
         title: "Globe Travel Website",
         description: "Welcome to the Globe Travel Website project! This is a sample project showcasing how to integrate HTML and SCSS for a travel website. This repository includes HTML, SCSS and various assets like icons,buttons, and images used for development of a static version of an imaginary Travel Website called \"Globe\". This page is for understanding the HTML tags and their corresponding SCSS styling elements and does not include any javascript code.",
         coverImg: "globetravelwebsite.png",
@@ -48,7 +85,7 @@ const projects = [
         tools: ["HTML", "SCSS"]
     },
     {
-        id: 5,
+        id: 8,
         title: "Blog Bytes",
         description: "Welcome to 'BlogBytes'! Stretch your tech muscles by reading the byte-sized blogs from this website!!! This blog website is a sample project showcasing how to integrate HTML, SCSS and JavaScript for a simple blog website that displays some posts from an external JSON file, and allows the user to create a new blog, or update the author/content of an existing blog. This repository includes HTML, SCSS, and JS files.",
         coverImg: "blogbytes.png",
@@ -60,7 +97,7 @@ const projects = [
         tools: ["JavaScript","HTML", "SCSS"]
     },
     {
-        id: 6,
+        id: 9,
         title: "Canvas Calculator",
         description: "Welcome to 'Expression Calculator'! This calculator is a HTML Canvas based calculator, where each buttons are drawn into the canvas element of the webpage with id = calculatorCanvas. This project showcases the understanding of the Canvas element and how to draw using Javascript, and enable various operations on them.",
         coverImg: "canvascalculator.png",

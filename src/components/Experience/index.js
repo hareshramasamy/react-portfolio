@@ -19,6 +19,67 @@ const Experience = () => {
             </h1>
             <ul className = "company-ul">
               <li>
+                <a href = "https://www.nokia.com/" target="_blank">
+                  <div className = "company-container">
+                    <div className="timeline-div">
+                      <div>
+                        Sept 2024 - Dec 2024
+                      </div>
+                    </div>
+                    <div className="experience-div">
+                      <div className="role-title">
+                        Software as a Service Coop - Nokia
+                      </div>
+                      <div className="location-div">
+                        Sunnyvale, CA, USA
+                      </div>
+                      <ul className="exp-pt-ul">
+                        <li>
+                        <div>
+                          <FontAwesomeIcon icon={faArrowRight} color="#c8102f" />
+                        </div>
+                        <div>                      
+                        Built a billing portal from scratch using Java Spring Boot and ReactJS, integrated with Nokia’s Event Driven Automation (EDA) SaaS to manage purchase orders, license RTUs, automated invoicing, and revenue tracking
+                        </div>
+                        </li>
+                        <li>
+                        <div>
+                          <FontAwesomeIcon icon={faArrowRight} color="#c8102f" />
+                        </div>
+                        <div>                      
+                        Collaborated with domain experts and stakeholders to gather evolving requirements and delivered configurable backend logic and dashboards for billing and license insights                     
+                        </div>
+                        </li>
+                                                <li>
+                        <div>
+                          <FontAwesomeIcon icon={faArrowRight} color="#c8102f" />
+                        </div>
+                        <div>                      
+                        Customized and integrated Nokia React UI components to ensure consistent user experience and branding across the webapp, while managing application state with Redux                     
+                        </div>
+                        </li>
+                                                <li>
+                        <div>
+                          <FontAwesomeIcon icon={faArrowRight} color="#c8102f" />
+                        </div>
+                        <div>                      
+                        Secured APIs using JWT-based authentication via Azure AD with role-based access (Admin vs Customer) and triggered event-driven alerts using Spring Boot Mail                     
+                        </div>
+                        </li>
+                                                <li>
+                        <div>
+                          <FontAwesomeIcon icon={faArrowRight} color="#c8102f" />
+                        </div>
+                        <div>                      
+                        Authored Swagger/OpenAPI docs and internal platform documentation; created UML diagrams, system design and entity relationships to ensure clarity in data flow and maintainability                     
+                        </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
                 <a href = "https://www.accenture.com/us-en" target="_blank" rel="noreferrer">
                   <div className = "company-container">
                     <div className="timeline-div">

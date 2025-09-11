@@ -16,7 +16,7 @@ const Contact = () => {
               />
             </h1>
               <h2>
-            I’m currently looking for internship opportunities for summer 2024, my inbox is always open. Whether you have a question or interest in my work, I’ll try my best to get back to you as soon as possible!
+            I’m currently looking for full-time SDE opportunities and my inbox is always open. Whether you have a question or interested in working with me, please reach out to me by clicking the link below!
             </h2>
             <a href = "mailto:ramasamy.h@northeastern.edu" className='flat-button'>
                         Say hi
