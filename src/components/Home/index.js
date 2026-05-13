@@ -31,8 +31,7 @@ const Home = () => {
           <div className="hero-buttons">
             <a href="#work-experience" className="flat-button">EXPERIENCE</a>
             <a href="#projects" className="flat-button">PROJECTS</a>
-            {/* Add resume: drop PDF into public/resume.pdf then uncomment:
-            <a href="/resume.pdf" className="flat-button" download>RESUME</a> */}
+            <a href="/HareshResume.pdf" className="flat-button" download>RESUME</a>
           </div>
         </div>
 
