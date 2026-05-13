@@ -34,6 +34,35 @@
         }
     }
 
+    .projects-filter {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin: 20px 0 30px;
+
+      .filter-btn {
+        padding: 8px 18px;
+        border-radius: 20px;
+        border: 2px solid #c8102f;
+        background: transparent;
+        color: #c8102f;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background 0.2s, color 0.2s;
+
+        &:hover {
+          background: rgba(200, 16, 47, 0.1);
+        }
+
+        &.active {
+          background: #c8102f;
+          color: white;
+        }
+      }
+    }
+
     .projects-list {
       display: flex;
       flex-wrap: wrap;
