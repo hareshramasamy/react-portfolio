@@ -19,6 +19,41 @@ const Experience = () => {
             </h1>
             <ul className = "company-ul">
               <li>
+                <a href="https://www.northeastern.edu/" target="_blank" rel="noreferrer">
+                  <div className="company-container">
+                    <div className="timeline-div">
+                      <div>Sept 2025 - Dec 2025</div>
+                    </div>
+                    <div className="experience-div">
+                      <div className="role-title">
+                        Graduate Teaching Assistant - Northeastern University
+                      </div>
+                      <div className="location-div">
+                        Boston, MA, USA · Part-time
+                      </div>
+                      <ul className="exp-pt-ul">
+                        <li>
+                          <div><FontAwesomeIcon icon={faArrowRight} color="#c8102f" /></div>
+                          <div>Assisted 38 graduate students in mastering Enterprise Software Design concepts including Java Servlets, JSPs, Hibernate ORM, Spring Framework, and MVC architecture</div>
+                        </li>
+                        <li>
+                          <div><FontAwesomeIcon icon={faArrowRight} color="#c8102f" /></div>
+                          <div>Conducted weekly lab sessions and TA hours, providing personalized guidance on conceptual understanding and code-level debugging for Java EE and Spring-based web applications</div>
+                        </li>
+                        <li>
+                          <div><FontAwesomeIcon icon={faArrowRight} color="#c8102f" /></div>
+                          <div>Graded assignments, quizzes, and exams with detailed technical feedback to support student learning and maintain evaluation consistency</div>
+                        </li>
+                        <li>
+                          <div><FontAwesomeIcon icon={faArrowRight} color="#c8102f" /></div>
+                          <div>Collaborated with Professor Ozbek to uphold course quality, manage lab logistics, and enforce academic-integrity and attendance policies</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
                 <a href = "https://www.nokia.com/" target="_blank">
                   <div className = "company-container">
                     <div className="timeline-div">
