@@ -1,6 +1,90 @@
 const projects = [
     {
         id: 1,
+        title: "MediSchedule",
+        description: "A PostgreSQL-native healthcare scheduling and billing system that demonstrates advanced database engineering. Features double-booking prevention via exclusion constraints, trigger-based audit logs, a PL/pgSQL state machine for appointments, full-text patient search with fuzzy fallback, and materialized views for doctor utilization analytics — all backed by Supabase with a React + Vite frontend.",
+        coverImg: "medischedule.png",
+        github: "https://github.com/hareshramasamy/medischedule",
+        deployed: false,
+        link: "https://github.com/hareshramasamy/medischedule",
+        date: "May 2026",
+        alt: "medischedule image",
+        tools: ["PostgreSQL", "PLpgSQL", "Supabase", "React.js", "Vite", "JavaScript", "CSS"],
+        tags: ["Full Stack", "Database"],
+        featured: true
+    },
+    {
+        id: 2,
+        title: "Deep Research App",
+        description: "An agentic deep-research workflow app featuring a multi-agent pipeline with a planner agent, a web-search agent, a writer agent, and an optional email delivery agent powered by SendGrid. Supports both a Gradio UI and a CLI runner, making it easy to run in-depth research queries locally.",
+        coverImg: "deepresearchapp.png",
+        github: "https://github.com/hareshramasamy/deep_research_app",
+        deployed: false,
+        link: "https://github.com/hareshramasamy/deep_research_app",
+        date: "April 2026",
+        alt: "deep research app image",
+        tools: ["Python", "OpenAI API", "Gradio", "Agentic AI", "SendGrid"],
+        tags: ["AI & ML"],
+        featured: false
+    },
+    {
+        id: 3,
+        title: "Avatar AI",
+        description: "A self-service platform where users upload their documents to create a personalized AI avatar delivered as an embeddable script tag. Powered by an OpenAI Agents SDK backend with RAG over a per-user Pinecone knowledge base, JWT-based auth, and a Vite-built embeddable chat widget — enabling anyone to embed their own AI persona on their website.",
+        coverImg: "avatarai.png",
+        github: "https://github.com/hareshramasamy/avatar-ai",
+        deployed: false,
+        link: "https://github.com/hareshramasamy/avatar-ai",
+        date: "April 2026",
+        alt: "avatar ai image",
+        tools: ["Python", "FastAPI", "OpenAI Agents SDK", "Pinecone", "RAG", "JWT", "Vite", "JavaScript", "CSS"],
+        tags: ["AI & ML", "Full Stack"],
+        featured: true
+    },
+    {
+        id: 4,
+        title: "LiftLog",
+        description: "A workout tracking web application built with Next.js and the App Router. Allows users to log exercises, track sets and reps, and monitor progress over time. Features Clerk-based authentication, Drizzle ORM for type-safe database access, and a clean Tailwind CSS UI with dark mode support.",
+        coverImg: "liftlog.png",
+        github: "https://github.com/hareshramasamy/liftlog",
+        deployed: true,
+        link: "https://liftlog-three-sooty.vercel.app",
+        date: "March 2026",
+        alt: "liftlog image",
+        tools: ["TypeScript", "Next.js", "React.js", "Drizzle ORM", "Clerk", "Tailwind CSS"],
+        tags: ["Full Stack"],
+        featured: true
+    },
+    {
+        id: 5,
+        title: "MMIS Mini",
+        description: "A full-stack Mini Maintenance Management Information System (MMIS) demonstrating core maintenance operations workflows. Built with Spring Boot and React, it manages assets, work orders, and maintenance plans, and includes CSV-based bulk uploads and overdue maintenance reporting.",
+        coverImg: "mmismini.png",
+        github: "https://github.com/hareshramasamy/mmis-mini",
+        deployed: false,
+        link: "https://github.com/hareshramasamy/mmis-mini",
+        date: "November 2025",
+        alt: "mmis mini image",
+        tools: ["Java", "Spring Boot", "React.js", "TypeScript", "H2 Database", "CSS"],
+        tags: ["Full Stack"],
+        featured: false
+    },
+    {
+        id: 6,
+        title: "Service Marketplace",
+        description: "A full-stack service marketplace application where users can list and discover services. Built with Next.js and TypeScript, it features a modern UI and a scalable architecture for connecting service providers with customers.",
+        coverImg: "servicemarketplace.png",
+        github: "https://github.com/hareshramasamy/service-marketplace",
+        deployed: false,
+        link: "https://github.com/hareshramasamy/service-marketplace",
+        date: "October 2025",
+        alt: "service marketplace image",
+        tools: ["TypeScript", "Next.js", "React.js", "CSS"],
+        tags: ["Full Stack"],
+        featured: false
+    },
+    {
+        id: 7,
         title: "Library Store",
         description: "A comprehensive bookstore management system demonstrating various design patterns in Java. This project implements a complete bookstore application with inventory management, order processing, billing, and employee management.",
         coverImg: "librarystore.png",
@@ -9,10 +93,12 @@ const projects = [
         link: "https://github.com/hareshramasamy/Library-Store",
         date: "August 2025",
         alt: "librarystore image",
-        tools: ["Java", "Design Patterns", "UML Design", "Maven", "JUnit"]
+        tools: ["Java", "Design Patterns", "UML Design", "Maven", "JUnit"],
+        tags: ["Systems"],
+        featured: false
     },
     {
-        id: 2,
+        id: 8,
         title: "Stable Diffusion Naruto",
         description: "This project is a full-stack Generative AI web application that enables users to generate Naruto-style anime images from text prompts using a fine-tuned Stable Diffusion model. The application features a user-friendly Streamlit front-end and a PyTorch-based back-end powered by Hugging Face's diffusers library.",
         coverImg: "stablediffusionnaruto.png",
@@ -21,11 +107,12 @@ const projects = [
         link: "https://github.com/hareshramasamy/stable-diffusion-naruto",
         date: "April 2025",
         alt: "stable diffusion naruto image",
-        tools: ["Streamlit", "Python", "Pytorch", "Hugging face Diffusers", "VAE", "CLIP","U-Net","Jupiter Notebook", "Transformers & Tokenizers", "Fine-tuning" ]
-
+        tools: ["Streamlit", "Python", "Pytorch", "Hugging face Diffusers", "VAE", "CLIP","U-Net","Jupiter Notebook", "Transformers & Tokenizers", "Fine-tuning"],
+        tags: ["AI & ML"],
+        featured: false
     },
     {
-        id: 3,
+        id: 9,
         title: "SQL Generator",
         description: "The goal of this project was to fine-tune two Large Language Models (LLMs) on Gretel's Synthetic text-to-SQL dataset, generate SQL queries along with explanations given a schema and natural language query, compare their performance and build a simple interface to query the models.",
         coverImg: "sqlgenerator.png",
@@ -34,10 +121,12 @@ const projects = [
         link: "https://github.com/hareshramasamy/sql-generator",
         date: "March 2025",
         alt: "sqlgenerator image",
-        tools: ["Python", "SQL", "Transformer Models", "Fine-tuning", "Google Colab", "Gradio UI" ]
+        tools: ["Python", "SQL", "Transformer Models", "Fine-tuning", "Google Colab", "Gradio UI"],
+        tags: ["AI & ML"],
+        featured: false
     },
     {
-        id: 4,
+        id: 10,
         title: "Eduverse LMS",
         description: "Eduverse is a Spring Boot application designed as an online Learning Management System (LMS). Eduverse offers a comprehensive set of features tailored to facilitate efficient management and delivery of online courses including creation of courses, announcements, and assignments, file uploads, student enrollment, and grade submissions by instructors, and assignment submission by students.",
         coverImg: "eduverse.png",
@@ -46,10 +135,12 @@ const projects = [
         link: "http://eduverse.us-east-1.elasticbeanstalk.com/",
         date: "April 2024",
         alt: "eduverse image",
-        tools: ["Java", "Spring Boot", "Spring MVC", "Spring Security", "Thymeleaf","MySQL","AWS Elastic Beanstalk","AWS RDS","HTML","CSS","JavaScript","JQuery","Apache POI API", "AJAX" ]
+        tools: ["Java", "Spring Boot", "Spring MVC", "Spring Security", "Thymeleaf","MySQL","AWS Elastic Beanstalk","AWS RDS","HTML","CSS","JavaScript","JQuery","Apache POI API", "AJAX"],
+        tags: ["Full Stack"],
+        featured: true
     },
     {
-        id: 5,
+        id: 11,
         title: "Health 360",
         description: "Health360 is a user-friendly fitness web application designed to guide one's journey towards optimal health. This all-in-one platform combines intuitive design with powerful features to provide users with a seamless and personalized fitness experience. Health360 incorporates an array of features, including real-time tracking of your daily calorie intake, effortless meal and exercise logging, personalized goal visualization, and a blog platform for sharing recipes and wellness tips.",
         coverImg: "health360.png",
@@ -58,10 +149,12 @@ const projects = [
         link: "https://main.dlycu2ymsp6h0.amplifyapp.com/",
         date: "December 2023",
         alt: "health360 image",
-        tools: ["TypeScript", "React.js","Node.js", "Express.js", "MongoDB", "SCSS", "Redux.js"]
+        tools: ["TypeScript", "React.js","Node.js", "Express.js", "MongoDB", "SCSS", "Redux.js"],
+        tags: ["Full Stack"],
+        featured: true
     },
     {
-        id: 6,
+        id: 12,
         title: "Airline Management System",
         description: "Airline Management System is a Java Swing application designed to manage domestic and international flight schedules, bookings, and passenger information. The system provides separate interfaces for administrators and passengers to interact with the system, offering functionalities such as viewing flight schedules, booking flights, and managing user accounts.",
         coverImg: "airlinemanagementsystem.png",
@@ -70,10 +163,12 @@ const projects = [
         link: "",
         date: "December 2023",
         alt: "ams image",
-        tools: ["Java", "Swing GUI","CSV Handling", "Stream API", "Factory Pattern", "Multi-threading", "Object-Oriented Design"]
+        tools: ["Java", "Swing GUI","CSV Handling", "Stream API", "Factory Pattern", "Multi-threading", "Object-Oriented Design"],
+        tags: ["Systems"],
+        featured: false
     },
     {
-        id: 7,
+        id: 13,
         title: "Globe Travel Website",
         description: "Welcome to the Globe Travel Website project! This is a sample project showcasing how to integrate HTML and SCSS for a travel website. This repository includes HTML, SCSS and various assets like icons,buttons, and images used for development of a static version of an imaginary Travel Website called \"Globe\". This page is for understanding the HTML tags and their corresponding SCSS styling elements and does not include any javascript code.",
         coverImg: "globetravelwebsite.png",
@@ -82,10 +177,12 @@ const projects = [
         link: "https://hareshramasamy.github.io/Globe-travel-website/",
         date: "September 2023",
         alt: "globe travel website image",
-        tools: ["HTML", "SCSS"]
+        tools: ["HTML", "SCSS"],
+        tags: ["Frontend"],
+        featured: false
     },
     {
-        id: 8,
+        id: 14,
         title: "Blog Bytes",
         description: "Welcome to 'BlogBytes'! Stretch your tech muscles by reading the byte-sized blogs from this website!!! This blog website is a sample project showcasing how to integrate HTML, SCSS and JavaScript for a simple blog website that displays some posts from an external JSON file, and allows the user to create a new blog, or update the author/content of an existing blog. This repository includes HTML, SCSS, and JS files.",
         coverImg: "blogbytes.png",
@@ -94,10 +191,12 @@ const projects = [
         link: "https://hareshramasamy.github.io/Blog-Bytes/",
         date: "October 2023",
         alt : "blog bytes image",
-        tools: ["JavaScript","HTML", "SCSS"]
+        tools: ["JavaScript","HTML", "SCSS"],
+        tags: ["Frontend"],
+        featured: false
     },
     {
-        id: 9,
+        id: 15,
         title: "Canvas Calculator",
         description: "Welcome to 'Expression Calculator'! This calculator is a HTML Canvas based calculator, where each buttons are drawn into the canvas element of the webpage with id = calculatorCanvas. This project showcases the understanding of the Canvas element and how to draw using Javascript, and enable various operations on them.",
         coverImg: "canvascalculator.png",
@@ -106,7 +205,9 @@ const projects = [
         link: "https://hareshramasamy.github.io/Canvas-Calculator/",
         date: "October 2023",
         alt: "canvas calculator image",
-        tools: ["HTML", "CSS", "JavaScript"]
+        tools: ["HTML", "CSS", "JavaScript"],
+        tags: ["Frontend"],
+        featured: false
     },
 ]
 

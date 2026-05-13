@@ -7,6 +7,12 @@ import Cc from '../../assets/images/canvascalculator.png'
 import Sdn from '../../assets/images/stablediffusionnaruto.png'
 import Sg from '../../assets/images/sqlgenerator.png'
 import Ls from '../../assets/images/librarystore.png'
+import Ll from '../../assets/images/liftlog.png'
+import Mmis from '../../assets/images/mmismini.png'
+import Sm from '../../assets/images/servicemarketplace.png'
+import Aai from '../../assets/images/avatarai.png'
+import Dra from '../../assets/images/deepresearchapp.png'
+import Ms from '../../assets/images/medischedule.png'
 import './index.scss';
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -32,6 +38,18 @@ export default function Project(props) {
         imgSrc = Sg
     } else if (props.coverImg === "librarystore.png") {
         imgSrc = Ls
+    } else if (props.coverImg === "liftlog.png") {
+        imgSrc = Ll
+    } else if (props.coverImg === "mmismini.png") {
+        imgSrc = Mmis
+    } else if (props.coverImg === "servicemarketplace.png") {
+        imgSrc = Sm
+    } else if (props.coverImg === "avatarai.png") {
+        imgSrc = Aai
+    } else if (props.coverImg === "deepresearchapp.png") {
+        imgSrc = Dra
+    } else if (props.coverImg === "medischedule.png") {
+        imgSrc = Ms
     }
 
     return (
