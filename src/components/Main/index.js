@@ -1,6 +1,5 @@
 import Sidebar from '../Sidebar/index'
 import Home from '../Home/index'
-import About from '../About/index'
 import Experience from '../Experience/index'
 import Projects from '../Projects/index'
 import Contact from '../Contact/index'
@@ -18,7 +17,6 @@ const Layout = () => {
     return <div className="App">
         <Sidebar/>
         <Home/>
-        <About/>
         <Experience/>
         <Projects/>
         <Contact/>

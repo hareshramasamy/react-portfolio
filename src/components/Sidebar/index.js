@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import {Link, NavLink} from 'react-router-dom';
 import LogoS from '../../assets/images/logo-s.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHome, faUser, faProjectDiagram, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHome, faProjectDiagram, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import {act} from '@testing-library/react';
 
 
@@ -50,11 +50,7 @@ const Sidebar  = () => {
             <FontAwesomeIcon icon = {faHome} color = "4d4d4e"/>
             <span className = "nav-text">HOME</span>
         </a>
-        <a href = "#about" className = "about-link" onClick={handleNavClick}>
-            <FontAwesomeIcon icon = {faUser} color = "4d4d4e"/>
-            <span className = "nav-text">ABOUT</span>
-        </a>
-        <a href = "#work-experience" className = "work-experience-link" onClick={handleNavClick}>
+<a href = "#work-experience" className = "work-experience-link" onClick={handleNavClick}>
             <FontAwesomeIcon icon = {faBriefcase} color = "4d4d4e"/>
             <span className = "nav-text">WORK EXPERIENCE</span>
         </a>
